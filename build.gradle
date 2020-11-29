@@ -24,6 +24,9 @@ dependencies {
     // This dependency is used by the application.
     implementation 'com.google.guava:guava:29.0-jre'
 
+    // use Json.org API for work with JSON files
+    implementation 'com.github.cliftonlabs:json-simple:3.1.0'
+
     // Use JUnit Jupiter API for testing.
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.2'
 
