@@ -45,12 +45,12 @@ cd parse_json_xml/bin
 Run application to parse JSON file:
 
 ```bash
-java -jar menu-all.jar menu.json desc
+java -jar menu.jar menu.json desc
 ```
 Run application to parse xml file:
 
 ```bash
-java -jar menu-all.jar menu.xml asc
+java -jar menu.jar menu.xml asc
 ```
 
 By default data sorted in ascending order. 
