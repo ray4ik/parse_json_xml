@@ -1,0 +1,18 @@
+{
+  "breakfast_menu": {
+    "food": [
+      {
+        "name": "Test 1",
+        "price": "$1.00",
+        "description": "Test Description 1",
+        "calories": "100"
+      },
+      {
+        "name": "Test 2",
+        "price": "$2.00",
+        "description": "Test Description 2",
+        "calories": "200"
+      }
+    ]
+  }
+}
