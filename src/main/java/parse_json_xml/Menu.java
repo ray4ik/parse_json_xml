@@ -3,6 +3,8 @@
  */
 package parse_json_xml;
 
+import parse_json_xml.parcer.JParcer;
+
 import java.util.Scanner;
 
 public class Menu {
@@ -24,5 +26,9 @@ public class Menu {
         else {
             System.out.println("no data, please input file name to be pasrced  and sort order (by default = asc) ");
         }
+
+        JParcer parcer = new JParcer(fileName);
+        parcer.parseFile();
+
     }
 }
