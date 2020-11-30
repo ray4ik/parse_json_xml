@@ -38,13 +38,13 @@ public class JParcer {
             JsonObject project = (JsonObject) entry;
             System.out.println(project.get("name"));
             System.out.println(project.get("price"));
-            System.out.println(project.get("description");
-            System.out.println(project.get("calories");
+            System.out.println(project.get("description"));
+            System.out.println(project.get("calories"));
 
         });
 
         reader.close();
-        
+
 
     }
 }
