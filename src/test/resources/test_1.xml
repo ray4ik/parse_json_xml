@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<breakfast_menu>
+    <food>
+        <name>Test 1</name>
+        <price>$1.00</price>
+        <description>Test Descr 1</description>
+        <calories>100</calories>
+    </food>
+    <food>
+        <name>Test 2</name>
+        <price>$2.00</price>
+        <description>Test Descr 2</description>
+        <calories>200</calories>
+    </food>
+</breakfast_menu>
